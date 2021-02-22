@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+/*font-family: 'Bilbo Swash Caps', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 100px 700px 80px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* MENU */
+.header {
+  background-color: #FFFBEF;
+  height: 80px;
+  box-shadow: 0 5px 8px #999999;
+}
+.listaMenu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.itemListaMenu {
+  list-style: none;
+  font-size: 26px;
+  padding: 7px;
+  font-weight: bold;
+}
+.itemListaMenu:nth-child(3){
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-weight: 100;
+  font-size: 36px;
+}
+.itemListaMenu:hover{
+  background-color: #F9AE49;
+}
+
+/*Página FORM*/
+
+.contato{
+  background-color: #FFFDF8;
+  display: grid;
+  grid-template-rows: 100px 450px;
+}
+
+.conteudoContato{
+  display:grid;
+  grid-template-columns: repeat(2, 50%);
+  
+}
+
+.imagem, formContato{
+  margin: 0 auto;
+}
+
+.formContato{
+  display: grid;
+  grid-template-rows: repeat(5, 50px) 100px 50px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  padding-right: 10%;
+}
+.label{
+  display: block;
+  margin: 15px 0;
+}
+.inputs{
+  width: 100%;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.textarea{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+.botao{
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-top: auto;
+  height: 45px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #5D0612;
+}
+
+.botao:hover {
+  background-color: #F9AE49;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #FFFBEF;
+  height: 80px;
+  box-shadow: 0 -5px 8px #999999;
+}
