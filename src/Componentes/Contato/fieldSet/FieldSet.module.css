@@ -1,0 +1,24 @@
+.fieldset{
+    width: 80%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.label{
+    font-family: var(--texto);
+    font-weight: bold;
+}
+
+.input{
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid var(--vinho);
+}
+
+.textarea{
+    height: 90px;
+    border-radius: 5px;
+    border:1px solid var(--vinho);
+}

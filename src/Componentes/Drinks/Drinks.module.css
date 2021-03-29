@@ -1,0 +1,49 @@
+.containerDrinks{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloDrinks{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinho);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectionDrinks{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+.titulobtn{
+    text-decoration: none;
+    color: var(--nude);
+}
+
+.buttonDrinks{
+    width: 80%;
+    height: 35px;
+    color:  var(--rose);
+    background-color: var(--vinho);
+    font-family: var(--subtitulo);
+    font-size: 1.3rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 10px;
+    
+}
+
+.buttonDrinks:hover{
+    background-color: var(--rose);
+    color: var(--vinho)
+}
+

@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react';
+import styles from './Footer.module.css';
 
-export default class Footer extends Component {
-    render() {
-        return (
-            <div className="footer">
-                <p className="conteudoFooter">Todos os direitos reservados</p>
-            </div>
-        )
-    }
+function Footer(){
+    return (
+        <div className={styles.footer}>
+                <p>Feito por Guilhermina Araújo - Todos os direitos reservados</p>
+        </div>
+    )
 }
+
+export default Footer;

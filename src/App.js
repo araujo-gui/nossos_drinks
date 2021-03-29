@@ -1,14 +1,45 @@
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import Form from './Componentes/Form/Form';
 import Footer from './Componentes/Footer/Footer';
-import Menu from './Componentes/Menu/Menu';
+import Home from './Componentes/Home/Home';
+import Header from './Componentes/Header/Header';
+import Contato from './Componentes/Contato/Contato'
+import SobreNos from './Componentes/SobreNos/SobreNos';
+import NossoTime from './Componentes/NossoTime/NossoTime';
+import Drinks from './Componentes/Drinks/Drinks';
+
 
 function App() {
   return (
     <div className = "App">
-      <Menu />
-      <Form />
-      <Footer />
+      <Router>
+        <header className="headerApp">
+          <Header />
+        </header>
+        <main>
+          <Switch>
+          <Route path="/contato">
+            <Contato />
+          </Route>
+          <Route path="/sobre-nos">
+            <SobreNos />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/nosso-time">
+            <NossoTime />
+          </Route>
+          <Route path="/drinks">
+            <Drinks />
+          </Route>
+          </Switch>
+        </main>
+        <footer className="footerApp">
+          <Footer />
+        </footer>
+      </Router>
+
     </div>
   );
 }

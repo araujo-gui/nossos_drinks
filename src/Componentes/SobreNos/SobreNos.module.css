@@ -1,0 +1,40 @@
+.containerSobre{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloSobre{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinho);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectionSobre{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.texto{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinho);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgSobre{
+    width: 55%;
+}
